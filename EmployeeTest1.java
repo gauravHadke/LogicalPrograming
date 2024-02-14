@@ -6,6 +6,7 @@ public class EmployeeTest1 {
 		// TODO Auto-generated method stub
 		//add lines,,,,,,,,,,,
 		System.out.print("Blank body");
+		//*****
 	}
 
 }
