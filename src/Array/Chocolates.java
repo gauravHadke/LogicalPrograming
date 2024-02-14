@@ -24,6 +24,6 @@ public class Chocolates {
 			totalChocolates=totalChocolates+persons[i];
 		}
 		System.out.println(totalChocolates);
-		
+		Sysstem.out.println("add extra line to edit in git hub");
 	}
 }
