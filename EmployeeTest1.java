@@ -8,6 +8,9 @@ public class EmployeeTest1 {
 		System.out.print("Blank body");
 		//*****
 		//-------
+		
+		//SS-1002 is work comeletefd now
+		
 	}
 
 }
