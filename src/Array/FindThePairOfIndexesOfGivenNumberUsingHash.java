@@ -23,6 +23,8 @@ public class FindThePairOfIndexesOfGivenNumberUsingHash {
 				map.put(array[i],i);
 			}
 		}
+		
+		System.out.println(map);
 	}
 
 }

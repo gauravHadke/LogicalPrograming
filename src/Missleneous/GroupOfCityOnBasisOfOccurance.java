@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 public class GroupOfCityOnBasisOfOccurance {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		String string="Pune,Mumbai,Pune,mumbai,hydrabad,";
 		
 		string = string.toLowerCase();
@@ -29,14 +29,14 @@ public class GroupOfCityOnBasisOfOccurance {
 		
 		Set<Entry<String,Integer>> entrySet = map.entrySet();
 		
-		Map<Integer,List<Entry<String,Integer>>> collect = entrySet.stream()
-							.collect(Collectors.groupingBy(e->e.getValue()));
-		System.out.println(collect);
-	
-//		for(Entry<String, Integer> entry  :entrySet) {
-//			System.out.println(entry.getKey()+" "+entry.getValue());
-//		}
+		for(Map.Entry<String, Integer> m: entrySet){
+			System.out.println(m.getKey()+" "+m.getValue());
+		}
 		
+//		Map<Integer,List<Entry<String,Integer>>> collect = entrySet.stream()
+//							.collect(Collectors.groupingBy(e->e.getValue()));
+//		System.out.println(collect);
+
 	}
 
 }

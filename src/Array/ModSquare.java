@@ -28,6 +28,7 @@ public class ModSquare {
 				 res[i]=array[i]%array[j];
 				}
 			}
+			System.out.println(Arrays.toString(res));
 		}
 		
 		
