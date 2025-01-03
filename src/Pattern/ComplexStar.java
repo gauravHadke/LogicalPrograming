@@ -1,5 +1,17 @@
 package Pattern;
 
+/*
+ 
+ *
+*^*
+*^^*
+*^^^*
+*****
+ 
+ 
+ */
+
+
 public class ComplexStar {
 
 	public static void main(String[] args) {

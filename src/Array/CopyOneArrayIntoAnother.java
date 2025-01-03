@@ -1,7 +1,5 @@
 package Array;
 
-import java.util.Iterator;
-
 public class CopyOneArrayIntoAnother {
 
 	public static void main(String[] args) {

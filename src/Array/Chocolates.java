@@ -25,5 +25,6 @@ public class Chocolates {
 		}
 		System.out.println(totalChocolates);
 		System.out.println("add extra line to edit in git hub");
+		scanner.close();
 	}
 }

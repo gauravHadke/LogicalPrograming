@@ -13,6 +13,15 @@ public class ConvertArrayIntoString {
 			revString = revString+a[i];
 		}
 		System.out.println(revString);
+	
+	
+	//String builder
+	String[] strArray = { "Convert", "Array", "With", "Java" };
+	StringBuilder stringBuilder = new StringBuilder();
+	for (int i = 0; i < strArray.length; i++) {
+	    stringBuilder.append(strArray[i]);
 	}
-
+	String joinedString = stringBuilder.toString();
+	System.out.println(joinedString);
+  }
 }
